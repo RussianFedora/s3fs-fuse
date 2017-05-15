@@ -1,6 +1,6 @@
 Summary:	FUSE file system backed by Amazon S3 bucket
 Name:		s3fs-fuse
-Version:	1.80
+Version:	1.82
 Release:	1%{?dist}
 
 License:	GPLv2
@@ -39,5 +39,8 @@ autoconf
 %{_mandir}/man1/s3fs.1*
 
 %changelog
+* Mon May 15 2017 Arkady L. Shane <ashejn@russianfedora.pro> - 1.82-1
+- update to 1.82
+
 * Tue Mar 28 2017 Arkady L. Shane <ashejn@russianfedora.pro> - 1.80-1
 - initial build
