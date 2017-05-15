@@ -5,7 +5,7 @@ Release:	1%{?dist}
 
 License:	GPLv2
 URL:		https://github.com/s3fs-fuse/s3fs-fuse
-Source0:	https://github.com/%{name}/%{name}/archive/v1.80.tar.gz#/%{name}-%{version}.tar.gz
+Source0:	https://github.com/%{name}/%{name}/archive/v%{version}.tar.gz#/%{name}-%{version}.tar.gz
 
 BuildRequires:	automake
 BuildRequires:	pkgconfig(fuse)
